@@ -20,7 +20,7 @@ const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [questions, setQuestions] = useState([]);
   const [index, setIndex] = useState(0);
-  const [correct, setCorrect] = useState(false);
+  const [correct, setCorrect] = useState(0);
   const [error, setError] = useState(false)
 
   const [isModalOpen, setisModalOpen] = useState(false)
