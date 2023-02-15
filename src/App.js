@@ -23,7 +23,7 @@ function App() {
     <main>
       {isModalOpen && <Modal />}
       <section className='quiz'>
-        <p className='correct-answers'>correct answers: {correct}/{index + 1} </p>
+        <p className='correct-answers'>correct answers: {correct}/{index} </p>
         <article className='container'>
           <h2 dangerouslySetInnerHTML={{ __html: question }} />
           <div className='btn-container'>
